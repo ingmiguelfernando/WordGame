@@ -18,7 +18,7 @@
   margin: 0;
   font-size: clamp(2rem, 7vw, 3rem);
   font-weight: 800;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  background: linear-gradient(90deg, #002F6B, #0a3d7a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
