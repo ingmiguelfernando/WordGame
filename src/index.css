@@ -1,0 +1,36 @@
+:root {
+  --bg-1: #f4f4f2;
+  --bg-2: #ffffff;
+  --accent: #000000;
+  --accent-2: #4a4a4a;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+  --card-front: linear-gradient(135deg, #002F6B 0%, #0a3d7a 100%);
+  --card-back: linear-gradient(135deg, #002F6B 0%, #0a3d7a 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: radial-gradient(1200px 600px at 50% -10%, #e8e8e8 0%, var(--bg-2) 60%);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}

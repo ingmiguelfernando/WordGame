@@ -1,0 +1,6 @@
+{
+  "extends": "vite.config.js",
+  "compilerOptions": {
+    "types": ["react", "react-dom"]
+  }
+}
